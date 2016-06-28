@@ -146,6 +146,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Achievements.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="PAObserve.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Subject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainProc.cpp" />
+    <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
