@@ -146,14 +146,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AchieveEnemy.h" />
     <ClInclude Include="Achievements.h" />
     <ClInclude Include="Character.h" />
+    <ClInclude Include="Kuma.h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="PAObserve.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Subject.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Kuma.cpp" />
     <ClCompile Include="mainProc.cpp" />
     <ClCompile Include="Player.cpp" />
   </ItemGroup>

@@ -1,5 +1,7 @@
 #pragma once
 #include"Character.h"
+#include<iostream>
+using namespace std;
 
 class CPlayer: public CCharacter
 {
@@ -20,8 +22,10 @@ public:
 	{
 		if (m_atteckNum == 10)
 		{
+			//cout << "Æ®·ç" << endl;
 			return true;
 		}else {
+			//cout << "°ÅÁþ" << endl;
 			return false;
 		}
 	}

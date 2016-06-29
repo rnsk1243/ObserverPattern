@@ -46,6 +46,7 @@ public:
 	// 이벤트가 일어남과 동시에 이벤트함수까지 호출해주는 메소드
 	virtual void onNotify(/*이벤트 당하는 객체*/CCharacter& character, /*이벤트 종류*/Event event)
 	{
+				//cout << "플레이어" << m_playerAttack_10 << endl;
 		//이벤트 종류에따른 스위치문
 		switch (event)
 		{
@@ -74,7 +75,7 @@ public:
 			}
 			break;
 		default:
-			cout << "응답신호 없음" << endl;
+			//cout << "설정되지 않은 이벤트가 호출되었음" << endl;
 			break;
 		}
 	}

@@ -7,7 +7,11 @@ enum Event
 	// 10번 공격 시도
 	AtteckNum_10,
 	// 20번 공격 시도
-	AtteckNum_20
+	AtteckNum_20,
+	// 3번 어흥
+	GrowlNum,
+	// 5번 킁킁
+	SniffNum
 };
 
 // 관찰자 클래스

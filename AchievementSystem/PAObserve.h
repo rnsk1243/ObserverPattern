@@ -19,6 +19,12 @@ public:
 		// 이벤트 주체가 되는 객체와 어떤 이벤트를 기다리는지 종류를 넣어 호출한다.
 		notify(character, AtteckNum_10);
 		notify(character, AtteckNum_20);
+		
+	}
+	void updateKuma(CCharacter& character)
+	{
+		notify(character, GrowlNum);
+		notify(character, SniffNum);
 	}
 
 };

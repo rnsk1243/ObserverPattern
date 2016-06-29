@@ -1,7 +1,6 @@
 #include "Player.h"
-#include<iostream>
 #include<conio.h>
-using namespace std;
+
 
 CPlayer::~CPlayer()
 {
@@ -9,6 +8,7 @@ CPlayer::~CPlayer()
 
 void CPlayer::playAttack()
 {
+	cout << "플래이어의 턴!!! 스페이스바 : 공격" << endl;
 	char ch;
 	while (true)
 	{
