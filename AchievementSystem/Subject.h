@@ -51,7 +51,10 @@ public:
 		{
 			if (m_observer[i] == observer)
 			{
-				delete m_observer[i];
+				for (int j = i + 1; j < m_observerNum; j++)
+				{
+					m_observer[i] = m_observer[j];
+				}
 				m_observerNum--;
 				return;
 			}

@@ -24,7 +24,6 @@ void main()
 	ObserCollection->addObserver(observer01);
 	// 쿠마 관찰자 넣기
 	ObserCollection->addObserver(kumaObs01);
-
 	while (true)
 	{
 		// 플레이어 공격 
